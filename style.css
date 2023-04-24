@@ -4,40 +4,44 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa{
+.head{
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.head .head__image-matrix{
   width: 100%;
 }
-.aaa .more_inf {
+.head .head__link-matrix{
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .head {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.centered-main-page-element h3{
+.content__top h3{
   margin: 0 0 20px 0;
 }
-.task {
+.content__top-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.content__top-container {
   display: flex;
 }
+
+
+
+
 ul {
   margin:0;
   padding: 0px;
