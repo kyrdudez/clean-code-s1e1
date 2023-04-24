@@ -43,13 +43,19 @@
   margin: 0;
   padding: 0;
 }
-.list__item, .title {
+.list__item,
+.title {
   list-style: none;
 }
-.task,.edit,.delete,.add {
+.task,
+.edit,
+.delete,
+.add {
   outline: none;
 }
-.edit,.delete,.add {
+.edit,
+.delete,
+.add {
   background: none;
   border: 0;
   color: #888;
@@ -58,7 +64,9 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.edit,.delete,.add:hover {
+.edit,
+.delete,
+.add:hover {
   color: #3a3A3a;
 }
 /* Heading */
